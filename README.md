@@ -1,0 +1,9 @@
+# 코드리뷰 연습용 프로젝트
+Java와 친해지기 위한 코드리뷰 연습용 프로젝트
+
+## 초기 셋팅 방법
+1. https://github.com/bogurs/java-friend 로 진입하여 우측 상단의 `Fork`버튼을 누른다. (본인의 계정으로 남의 프로젝트를 복사해가는 과정)
+2. Fork가 완료되면 본인의 깃헙 저장소로 가서 초록색 버튼인 `Code`를 누르고 나오는 URL을 복사한다.
+3. IntelliJ로 가서 `File > New > Project From Version Control...`을 눌러서 복사한 URL을 붙여넣기
+4. `src/com/visang/codereview` 경로의 `Main` 클래스를 열어서 보여지는 초록색 재생버튼(`Run`)을 누름.
+5. 정상적으로 실행되면 메소드 내용을 수정하면서 원하는 결과를 콘솔에 출력하도록 개발 진행
