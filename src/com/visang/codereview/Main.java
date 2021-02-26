@@ -28,6 +28,8 @@ public class Main {
         System.out.println(result4); // 원하는 결과: 2
     }
 
+
+
     /**
      *
      * @param fruits
