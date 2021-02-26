@@ -32,10 +32,12 @@ public class Main {
 
     /**
      * 한글 2글자로 된 단어의 개수를 알아내는 함수
-     * @param fruits
+     * @param fruits 설명을 적어라
      * @return
      */
     private static int getCountTwoLengthCorrectly(String[] fruits) {
+        String testFriend = "For testing commit";
+
         int result = 0;
         for (String fruit : fruits) {
             if(fruit.length() == 2) {
