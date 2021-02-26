@@ -12,7 +12,7 @@ package com.visang.codereview;
 public class Main {
 
     public static void main(String[] args) {
-	    //TODO 아래 제시된 함수가 원하는 결과를 콘솔화면에 출력하도록 함수 내용을 완성해주세요.
+	    //TODO: 아래 제시된 함수가 원하는 결과를 콘솔화면에 출력하도록 함수 내용을 완성해주세요.
         String[] fruits = {"애플", "포도", "감", "바나나", "파인애플", "귤", "바나나", "키위", "바나나"};
 
         int result1 = getCountTwoLengthCorrectly(fruits);
@@ -35,8 +35,9 @@ public class Main {
      */
     private static int getCountTwoLengthCorrectly(String[] fruits) {
         int result = 0;
+
         //TODO fruits 배열에서 2글자로 된 단어의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
-        int a = 0;
+        int a = 0 ;
         int b = 0;
 
         return result;
@@ -50,7 +51,9 @@ public class Main {
     private static int getCountAllBananas(String[] fruits) {
         int result = 0;
 
-        //TODO fruits 배열에서 "바나나" 의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
+        //TODO: fruits 배열에서 "바나나" 의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
+        //바나나 갯수를 눈으로 확인하는게 빠르겠지?
+
 
         return result;
     }
@@ -63,7 +66,7 @@ public class Main {
     private static String[] getStringArrayWithoutOverlap(String[] fruits) {
         String[] result = new String[fruits.length];
 
-        //TODO fruits 배열에서 중복이 되지 않는 항목들만 result 변수에 저장하는 함수 내용을 작성해주세요.
+        //TODO: fruits 배열에서 중복이 되지 않는 항목들만 result 변수에 저장하는 함수 내용을 작성해주세요.
 
         return result;
     }
@@ -76,7 +79,7 @@ public class Main {
     private static int getCountContainApple(String[] fruits) {
         int result = 0;
 
-        //TODO fruits 배열에서 "애플"문자열을 포함하는 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
+        //TODO: fruits 배열에서 "애플"문자열을 포함하는 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
 
         return result;
     }
