@@ -29,15 +29,14 @@ public class Main {
     }
 
     /**
-     * 한글 2글자로 된 단어의 개수를 알아내는 함수
-     * @param fruits 설명을 적어
+     *
+     * @param fruits
      * @return
      */
     private static int getCountTwoLengthCorrectly(String[] fruits) {
         int result = 0;
-
         //TODO fruits 배열에서 2글자로 된 단어의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
-        int a = 0 ;
+        int a = 0;
         int b = 0;
 
         return result;
