@@ -36,8 +36,7 @@ public class Main {
      * @return
      */
     private static int getCountTwoLengthCorrectly(String[] fruits) {
-        String testFriend = "For testing commit";
-
+        String testFriend = "For testing commit2";
         int result = 0;
         for (String fruit : fruits) {
             if(fruit.length() == 2) {
