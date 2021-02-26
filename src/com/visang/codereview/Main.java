@@ -35,9 +35,7 @@ public class Main {
      */
     private static int getCountTwoLengthCorrectly(String[] fruits) {
         int result = 0;
-        //TODO fruits 배열에서 2글자로 된 단어의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
-        int a = 0;
-        int b = 0;
+        //TODO 다희의 새로운 코멘트 테스트
 
         return result;
     }
