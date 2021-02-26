@@ -1,7 +1,5 @@
 package com.visang.codereview;
 
-import java.util.TreeSet;
-
 /**
  * 문제 제시
  * 1.	주어진 배열을 가지고 아래 문제에 대한 소스코드를 작성해주세요.
@@ -31,18 +29,16 @@ public class Main {
     }
 
     /**
-     * 한글 2글자로 된 단어의 개수를 알아내는 함수
-     * @param fruits 설명을 적어라
+     *
+     * @param fruits
      * @return
      */
     private static int getCountTwoLengthCorrectly(String[] fruits) {
-        String testFriend = "For testing commit2";
         int result = 0;
-        for (String fruit : fruits) {
-            if(fruit.length() == 2) {
-                result++;
-            }
-        }
+        //TODO fruits 배열에서 2글자로 된 단어의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
+        int a = 0;
+        int b = 0;
+
         return result;
     }
 
@@ -53,13 +49,8 @@ public class Main {
      */
     private static int getCountAllBananas(String[] fruits) {
         int result = 0;
-        String word = "바나나";
 
-        for (String fruit : fruits) {
-            if(fruit.contentEquals(word)) {
-                result++;
-            }
-        }
+        //TODO fruits 배열에서 "바나나" 의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
 
         return result;
     }
@@ -70,14 +61,10 @@ public class Main {
      * @return
      */
     private static String[] getStringArrayWithoutOverlap(String[] fruits) {
-        String[] result;
-        TreeSet<String> ts = new TreeSet<>();
+        String[] result = new String[fruits.length];
 
-        for (String fruit : fruits) {
-            ts.add(fruit);
-        }
+        //TODO fruits 배열에서 중복이 되지 않는 항목들만 result 변수에 저장하는 함수 내용을 작성해주세요.
 
-        result = ts.toArray(new String[fruits.length]);
         return result;
     }
 
@@ -89,11 +76,7 @@ public class Main {
     private static int getCountContainApple(String[] fruits) {
         int result = 0;
 
-        for (String fruit : fruits) {
-            if (fruit.contains("애플")) {
-                result++;
-            }
-        }
+        //TODO fruits 배열에서 "애플"문자열을 포함하는 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
 
         return result;
     }
