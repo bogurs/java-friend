@@ -38,6 +38,8 @@ public class Main {
 
         //TODO fruits 배열에서 2글자로 된 단어의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
 
+
+
         return result;
     }
 
