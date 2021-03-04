@@ -49,7 +49,7 @@ public class Main {
      * @return
      */
     private static int getCountAllBananas(String[] fruits) {
-        int result = 0;
+        int result = 500;
 
         //TODO: fruits 배열에서 "바나나" 의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
         //바나나 갯수를 눈으로 확인하는게 빠르겠지?
