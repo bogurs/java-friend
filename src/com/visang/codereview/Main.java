@@ -55,6 +55,7 @@ public class Main {
         //TODO fruits 배열에서 "바나나" 의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
         int i = 55;
 
+        int x = 1;
         return result;
     }
 
