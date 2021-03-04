@@ -35,7 +35,7 @@ public class Main {
      */
     private static int getCountTwoLengthCorrectly(String[] fruits) {
         int result = 0;
-        //TODO fruits 배열에서 2글자로 된 단어의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요. test
+        //TODO fruits 배열에서 2글자로 된 단어의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
         int a = 0;
         int b = 0;
 
@@ -54,6 +54,7 @@ public class Main {
 
         //TODO fruits 배열에서 "바나나" 의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
 
+        int x = 2;
         return result;
     }
 
@@ -66,7 +67,6 @@ public class Main {
         String[] result = new String[fruits.length];
 
         //TODO fruits 배열에서 중복이 되지 않는 항목들만 result 변수에 저장하는 함수 내용을 작성해주세요.
-        int a = 000000;
 
         return result;
     }
