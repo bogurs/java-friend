@@ -80,7 +80,7 @@ public class Main {
      * @return
      */
     private static int getCountContainApple(String[] fruits) {
-        int result = 2;
+        int result = 3;
 
         //TODO: fruits 배열에서 "애플"문자열을 포함하는 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
 
