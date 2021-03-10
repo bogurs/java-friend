@@ -1,8 +1,5 @@
 package com.visang.codereview;
 
-import java.util.Arrays;
-import java.util.TreeSet;
-
 /**
  * 문제 제시
  * 1.	주어진 배열을 가지고 아래 문제에 대한 소스코드를 작성해주세요.
@@ -15,7 +12,7 @@ import java.util.TreeSet;
 public class Main {
 
     public static void main(String[] args) {
-	    //TODO 아래 제시된 함수가 원하는 결과를 콘솔화면에 출력하도록 함수 내용을 완성해주세요.
+	    //TODO: 아래 제시된 함수가 원하는 결과를 콘솔화면에 출력하도록 함수 내용을 완성해주세요.
         String[] fruits = {"애플", "포도", "감", "바나나", "파인애플", "귤", "바나나", "키위", "바나나"};
 
         int result1 = getCountTwoLengthCorrectly(fruits);
@@ -37,14 +34,13 @@ public class Main {
      * @return
      */
     private static int getCountTwoLengthCorrectly(String[] fruits) {
-        // check: String[] fruits) { : 띄어쓰기. { 앞에.
-        // check: if는 중괄호 치
         int result = 0;
 
-        // 람다는 성능 이슈 + 가독성
-        // 람다의 가독성을 좋게 하는 방법
-        // TODO 람다 찾아보기
-        result = (int) Arrays.stream(fruits).filter(x -> x.length() == 2).count();
+        //TODO fruits 배열에서 2글자로 된 단어의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
+        int a = 0 ;
+        int b = 0;
+
+
 
         return result;
     }
@@ -55,12 +51,13 @@ public class Main {
      * @return
      */
     private static int getCountAllBananas(String[] fruits) {
-        int result = 0;
-        // TODO equals 와 ==의 차이 정리하기.
-        // 검색어: ==과 equals
-        // TODO 고랭을 한 번 간단히 보자. 문법 20개 쯤
-        // 나쁜 네이밍을 쓰지 말자. 예. 파라메터 x
-        result = (int) Arrays.stream(fruits).filter(fruit -> fruit == "바나나").count();
+        int result = 500;
+
+        //TODO: fruits 배열에서 "바나나" 의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
+        //바나나 갯수를 눈으로 확인하는게 빠르겠지?
+
+
+        int x = 2;
         return result;
     }
 
@@ -70,10 +67,9 @@ public class Main {
      * @return
      */
     private static String[] getStringArrayWithoutOverlap(String[] fruits) {
-        String[] result;
+        String[] result = new String[fruits.length];
 
-        // TODO lambda String[]::new
-        result = Arrays.stream(fruits).distinct().toArray(String[]::new);
+        //TODO: fruits 배열에서 중복이 되지 않는 항목들만 result 변수에 저장하는 함수 내용을 작성해주세요.
 
         return result;
     }
@@ -84,14 +80,10 @@ public class Main {
      * @return
      */
     private static int getCountContainApple(String[] fruits) {
-        int result = 1;
+        int result = 0;
 
-        //TODO lambda 사용법
+        //TODO: fruits 배열에서 "애플"문자열을 포함하는 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
 
         return result;
     }
-
-    // TODO:
-    // next Week : '혼자서 공부하는 자바'
-    // collection framework 556p
 }
