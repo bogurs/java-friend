@@ -84,7 +84,7 @@ public class Main {
      * @return
      */
     private static int getCountContainApple(String[] fruits) {
-        int result = 0;
+        int result = 1;
 
         //TODO lambda 사용법
 
