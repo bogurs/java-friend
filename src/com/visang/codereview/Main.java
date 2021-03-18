@@ -1,5 +1,10 @@
 package com.visang.codereview;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
 /**
  * 문제 제시
  * 1.	주어진 배열을 가지고 아래 문제에 대한 소스코드를 작성해주세요.
@@ -17,7 +22,7 @@ public class Main {
 
         int result1 = getCountTwoLengthCorrectly(fruits);
         int result2 = getCountAllBananas(fruits);
-        String[] result3 = getStringArrayWithoutOverlap(fruits);
+        Set<String> result3 = getStringArrayWithoutOverlap(fruits);
         int result4 = getCountContainApple(fruits);
 
         System.out.println(result1); // 원하는 결과: 3
@@ -36,26 +41,33 @@ public class Main {
     private static int getCountTwoLengthCorrectly(String[] fruits) {
         int result = 0;
 
-        //TODO fruits 배열에서 2글자로 된 단어의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
-        int a = 0 ;
-        int b = 0;
+        //TODO fruits 배열에서 2글자로2글자로 된 단어의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
+        for (int i = 0; i < fruits.length; i++) {
+            int fruitLength = fruits[i].length();
+            if (fruitLength==2){
+                result = result+1;
+            }
 
-
+        }
 
         return result;
     }
 
     /**
-     * "바나나" 가 몇 번 나왔는지 알아내는 함수
+     * "바나나" 가 몇 번 나왔는지 알아내는 함수1
      * @param fruits
      * @return
      */
     private static int getCountAllBananas(String[] fruits) {
-        int result = 500;
-
+        int result = 0;
         //TODO: fruits 배열에서 "바나나" 의 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
-        //바나나 갯수를 눈으로 확인하는게 빠르겠지?
+        for (int i = 0; i < fruits.length; i++) {
 
+            if(fruits[i].equals("바나나")){
+                result=result+1;
+            }
+
+        }
 
         int x = 2;
         return result;
@@ -66,10 +78,11 @@ public class Main {
      * @param fruits
      * @return
      */
-    private static String[] getStringArrayWithoutOverlap(String[] fruits) {
-        String[] result = new String[fruits.length];
+    private static Set<String> getStringArrayWithoutOverlap(String[] fruits) {
+        Set<String> result = new TreeSet<>();
 
         //TODO: fruits 배열에서 중복이 되지 않는 항목들만 result 변수에 저장하는 함수 내용을 작성해주세요.
+        result.addAll(Arrays.asList(fruits));
 
         return result;
     }
@@ -82,7 +95,17 @@ public class Main {
     private static int getCountContainApple(String[] fruits) {
         int result = 0;
 
+
         //TODO: fruits 배열에서 "애플"문자열을 포함하는 총 개수를 result 변수에 저장하는 함수 내용을 작성해주세요.
+        for (int i = 0; i < fruits.length; i++) {
+
+            if(fruits[i].contains("애플")){
+                result=result+1;
+            }
+
+        }
+
+        //선미짱
 
         return result;
     }
