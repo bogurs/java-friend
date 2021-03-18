@@ -31,7 +31,7 @@ public class Main {
 
 
     /**
-     *
+     * 또 다른 PR
      * @param fruits
      * @return
      */
@@ -57,6 +57,7 @@ public class Main {
 
     /**
      * 중복을 제거하여 문자열 배열을 반환하는 함수
+     * pull request test
      * @param fruits
      * @return
      */
