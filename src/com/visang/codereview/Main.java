@@ -54,7 +54,7 @@ public class Main {
     }
 
     /**
-     * "바나나" 가 몇 번 나왔는지 알아내는 함수
+     * "바나나" 가 몇 번 나왔는지 알아내는 함수1
      * @param fruits
      * @return
      */
