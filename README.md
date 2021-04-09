@@ -12,3 +12,6 @@ Java와 친해지기 위한 코드리뷰 연습용 프로젝트
 https://shinsunyoung.tistory.com/41  
 위에 링크에서 이슈(task)를 만들고 이슈를 기준으로 브랜치를 생성하고, 리파지토리 주인한테 Pull Request를 날리는 자세한 내용을 담고 있네요  
 위에 링크보고 해보셔도 좋을것같아요~
+test1
+test2
+test3
